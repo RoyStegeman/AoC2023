@@ -3,13 +3,7 @@
 
 int main() {
   // Open the text file
-  std::ifstream file("input1.txt");
-
-  // Check if the file is opened successfully
-  if (!file.is_open()) {
-    std::cerr << "Error opening file!" << std::endl;
-    return 1;
-  }
+  std::ifstream file("input.txt");
 
   std::string firstnumber;
   std::string lastnumber;
